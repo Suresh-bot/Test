@@ -1,109 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recepiex_</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: black;
-            color: white;
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recepiex_</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* Black background */
+      color: #fff; /* White text */
+    }
 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #1a1a1a;
-            padding: 20px;
-        }
+    header {
+      background-color: #1c1c1c; /* Dark grey */
+      color: #ff0000; /* Red text */
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
 
-        .logo {
-            width: 150px;
-        }
+    .logo {
+      width: 100px;
+      height: 100px;
+      background-color: #ff0000; /* Red background */
+      color: white;
+      text-align: center;
+      line-height: 100px;
+      font-size: 24px;
+      font-weight: bold;
+      clip-path: inset(0 0 0 0 round 10px);
+    }
 
-        nav a {
-            color: #ff4d4d; /* Light red color */
-            margin-left: 20px;
-            text-decoration: none;
-            font-size: 18px;
-        }
+    nav {
+      margin-left: 20px;
+    }
 
-        nav a:hover {
-            color: white; /* Hover effect changes text color to white */
-        }
+    nav a {
+      color: #ff0000; /* Red links */
+      text-decoration: none;
+      margin-right: 20px;
+      font-size: 18px;
+    }
 
-        .container {
-            text-align: center;
-            padding: 50px;
-        }
+    main {
+      padding: 20px;
+    }
 
-        h1 {
-            color: #ff4d4d; /* Light red for the main heading */
-        }
+    main h1 {
+      color: #ff0000; /* Red headings */
+    }
 
-        .blog {
-            background-color: #1a1a1a; /* Dark background for blog section */
-            padding: 30px;
-            border-radius: 10px;
-            margin-top: 30px;
-            box-shadow: 0 0 10px rgba(255, 77, 77, 0.5); /* Light red shadow effect */
-        }
-
-        h2 {
-            color: white; /* White for the blog section heading */
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        ul li {
-            color: #ff4d4d; /* Light red for list items */
-            margin-bottom: 10px;
-        }
-
-        footer {
-            background-color: #1a1a1a;
-            padding: 10px;
-            text-align: center;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    footer {
+      background-color: #1c1c1c; /* Dark grey */
+      color: #ff0000; /* Red text */
+      padding: 10px;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="path-to-your-logo.png" alt="Recepiex_ Logo" class="logo">
-        <nav>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
-            <a href="https://docs.python.org/3/">Python</a>
-        </nav>
-    </header>
+  <header>
+    <div class="logo">Recepiex_</div>
+    <nav>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Learn JavaScript</a>
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Python_basics" target="_blank">Learn Python</a>
+    </nav>
+  </header>
 
-    <div class="container">
-        <h1>Welcome to Recepiex_</h1>
-        <p>Your guide to delicious recipes and career goals</p>
+  <main>
+    <h1>Career Goals</h1>
+    <p>My next career goals:</p>
+    <ul>
+      <li>Explore becoming a Java full stack developer.</li>
+      <li>Consider transitioning to product or project management.</li>
+      <li>Continue to learn advanced coding skills and stay updated with AI trends.</li>
+      <li>Possibly switch to an R&D role within the next six months.</li>
+      <li>Maintain individual focus on tasks while adhering to deadlines.</li>
+    </ul>
+  </main>
 
-        <div class="blog">
-            <h2>My Next Career Goals</h2>
-            <ul>
-                <li>Transition to a full-stack developer role.</li>
-                <li>Explore product/project management opportunities.</li>
-                <li>Enhance coding skills in Java and Python.</li>
-                <li>Continue working on personal development and technical projects.</li>
-            </ul>
-        </div>
-    </div>
-
-    <footer>
-        &copy; 2024 Recepiex_. All rights reserved.
-    </footer>
+  <footer>
+    <p>&copy; 2024 Recepiex_</p>
+  </footer>
 </body>
 </html>
